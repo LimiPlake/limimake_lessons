@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LimiMake Lesson</title>
+  <style>
+    body {
+      font-family: Helvetica;
+      text-align: center;
+      margin-top: 50px;
+      background-color: #f8f8f8;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      font-size: 16px;
+      width: 300px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-left: 10px;
+      background-color: #15d42f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .video {
+      width: 80%;
+      max-width: 600px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ffdddd;
+      color: #800000;
+      padding: 16px;
+      border: 2px solid #cc0000;
+      border-radius: 6px;
+      font-size: 16px;
+      z-index: 999;
+    }
+
+    .back-button {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #f44336;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Put your lesson ID in the text box</h1>
+<input id="lessonInput" type="text" placeholder="Enter Lesson ID here" style="font-family: Monaco"/>
+<button onclick="loadLesson()">Go</button>
+
+<div id="popup" class="popup" style="display: none;"></div>
+
+<script>
+  function showPopup(message) {
+    const popup = document.getElementById('popup');
+    popup.textContent = message;
+    popup.style.display = 'block';
+  }
+
+  function isValidLessonId(id) {
+    const regex = /^LM([1-6])([0-9]{1,2})PMEN(0|1)KAT(0|2)$/;
+    const match = id.match(regex);
+    if (!match) return false;
+
+    const lessonNum = parseInt(match[2]);
+    return lessonNum >= 1;
+  }
+
+  function loadLesson() {
+    const id = document.getElementById("lessonInput").value.trim();
+    const popup = document.getElementById("popup");
+    popup.style.display = "none";
+
+    if (!id) {
+      showPopup("Lesson ID cannot be blank.");
+      return;
+    }
+
+    if (!isValidLessonId(id)) {
+      showPopup("Invalid Lesson ID. Please check the format.");
+      return;
+    }
+
+    document.body.innerHTML = `
+      <h2>Lesson: ${id}</h2>
+      <a class="button" href="lessons/${id}.pdf" download>Download Lesson PDF</a>
+      <video class="video" controls>
+        <source src="lessons/${id}.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p><strong>Lesson ID format:</strong><br>LM&lt;level&gt;&lt;lesson&gt;PMEN&lt;0 or 1&gt;KAT&lt;0 or 2&gt;<br>
+      Example: <code>LM11PMEN1KAT0</code></p>
+      <a class="back-button" href="javascript:window.location.reload();">Back to Lesson ID Input</a>
+    `;
+  }
+</script>
+
+</body>
+</html>
