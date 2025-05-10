@@ -1,9 +1,23 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head><meta charset="UTF-8"> <title>Lessons - LimiMake - LimiPlake</title><meta name="viewport" content="width-device-width" initial-scale="1.0"></head>
   <body>
     <h1>LimiMake - Lessons: Hello!!</h1>
     <h2>Enter if you are a student or a teacher.</h2>
-    <input type="text" placeholder="Student/Teacher">
+    <form>
+      <input type="text" placeholder="Student/Teacher" name="type" id="st"> 
+      <button id="submit" type="submit">Visit page</button>
+    </form>
+    <script>
+        let st = document.getElementById("st").value;
+      document.addEventListener("submit" function(){
+          if (st.toUpperCase() === "STUDENT") {
+              window.location.href = "https://limiplake.github.io/limimake_lessons/students";
+          }else if (st.toUpperCase() === "TEACHER") {
+              window.location.href = "https://limiplake.github.io/limimake_lessons/teachers";
+          };
+          );
+          
+    </script>
   </body>
 </html>
