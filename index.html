@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head><meta charset="UTF-8"> <title>Lessons - LimiMake - LimiPlake</title><meta name="viewport" content="width-device-width" initial-scale="1.0"></head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Lessons - LimiMake - LimiPlake</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
   <body>
     <h1>LimiMake - Lessons: Hello!!</h1>
-    <h2>Enter if you are a student or a teacher.</h2>
-    <form>
-      <input type="text" placeholder="Student/Teacher" name="type" id="st"> 
-      <button id="submit" type="submit">Visit page</button>
+    <h2>Choose if you are a student or a teacher.</h2>
+    
+    <form id="user-type-form">
+      <select name="type" id="st">
+        <option value="">-- Choose One --</option>
+        <option value="STUDENT">Student</option>
+        <option value="TEACHER">Teacher</option>
+      </select>
+      <button type="submit">Visit page</button>
     </form>
+
     <script>
+      document.getElementById("user-type-form").addEventListener("submit", function(event) {
+        event.preventDefault();
         let st = document.getElementById("st").value;
-      document.addEventListener("submit" function(){
-          if (st.toUpperCase() === "STUDENT") {
-              window.location.href = "https://limiplake.github.io/limimake_lessons/students";
-          }else if (st.toUpperCase() === "TEACHER") {
-              window.location.href = "https://limiplake.github.io/limimake_lessons/teachers";
-          };
-          );
-          
+        
+        if (st === "STUDENT") {
+          window.location.href = "https://limiplake.github.io/limimake_lessons/students";
+        } else if (st === "TEACHER") {
+          window.location.href = "https://limiplake.github.io/limimake_lessons/teachers";
+        } else {
+          alert("Please pick one: Student or Teacher!");
+        }
+      });
     </script>
   </body>
 </html>
