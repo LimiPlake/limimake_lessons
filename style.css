@@ -1,6 +1,7 @@
 details {
   font-family: sans-serif;
-  border: 3px groove #0000FF;
+  border: 3px outset #0000FF;
+  background-color: #cccccc
 }
 summary {
   font-weight: 790;
