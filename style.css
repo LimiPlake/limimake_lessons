@@ -1,4 +1,8 @@
 details {
   font-family: sans-serif;
   border: 3px groove #0000FF;
-  
+}
+summary {
+  font-weight: 790;
+  font-family: sans-serif;
+}
