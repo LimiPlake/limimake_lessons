@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM2.10PMEN1KAT2",
+  "lessonNum": 18,
+  "level": {
+    "number": 2,
+    "name": "Scratch"
+  },
+  "name": "An easier way to duplicate sprites",
+  "student": {
+    "pdfUrl": "/lessons/students/LM2.10PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM2.10PMEN1KAT2-plan.pdf"
+  }
+}

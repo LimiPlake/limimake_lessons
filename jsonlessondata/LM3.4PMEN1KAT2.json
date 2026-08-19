@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM3.4PMEN1KAT2",
+  "lessonNum": 24,
+  "level": {
+    "number": 3,
+    "name": "Logo"
+  },
+  "name": "Filling in a shape",
+  "student": {
+    "pdfUrl": "/lessons/students/LM3.4PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM3.4PMEN1KAT2-plan.pdf"
+  }
+}

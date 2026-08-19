@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM2.8PMEN1KAT2",
+  "lessonNum": 16,
+  "level": {
+    "number": 2,
+    "name": "Scratch"
+  },
+  "name": "Storing information",
+  "student": {
+    "pdfUrl": "/lessons/students/LM2.8PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM2.8PMEN1KAT2-plan.pdf"
+  }
+}

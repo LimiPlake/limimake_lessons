@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM5.2PMEN0KAT2",
+  "lessonNum": 32,
+  "level": {
+    "number": 5,
+    "name": "HTML, CSS, JS"
+  },
+  "name": "Creating simple documents",
+  "student": {
+    "pdfUrl": "/lessons/students/LM5.2PMEN0KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM5.2PMEN0KAT2-plan.pdf"
+  }
+}

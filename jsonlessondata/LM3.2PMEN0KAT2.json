@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM3.2PMEN0KAT2",
+  "lessonNum": 22,
+  "level": {
+    "number": 3,
+    "name": "Logo"
+  },
+  "name": "Making the turtle move",
+  "student": {
+    "pdfUrl": "/lessons/students/LM3.2PMEN0KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM3.2PMEN0KAT2-plan.pdf"
+  }
+}

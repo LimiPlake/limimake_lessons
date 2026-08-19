@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM2.12PMEN1KAT2",
+  "lessonNum": 20,
+  "level": {
+    "number": 2,
+    "name": "Scratch"
+  },
+  "name": "Making your program even better",
+  "student": {
+    "pdfUrl": "/lessons/students/LM2.12PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM2.12PMEN1KAT2-plan.pdf"
+  }
+}

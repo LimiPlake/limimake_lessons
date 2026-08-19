@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM5.1PMEN0KAT0",
+  "lessonNum": 31,
+  "level": {
+    "number": 5,
+    "name": "HTML, CSS, JS"
+  },
+  "name": "Level 5 Examples",
+  "student": {
+    "pdfUrl": "/lessons/students/LM5.1PMEN0KAT0.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM5.1PMEN0KAT0-plan.pdf"
+  }
+}

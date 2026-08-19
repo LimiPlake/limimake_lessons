@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM3.1PMEN0KAT0",
+  "lessonNum": 21,
+  "level": {
+    "number": 3,
+    "name": "Logo"
+  },
+  "name": "Level 3 Examples",
+  "student": {
+    "pdfUrl": "/lessons/students/LM3.1PMEN0KAT0.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM3.1PMEN0KAT0-plan.pdf"
+  }
+}

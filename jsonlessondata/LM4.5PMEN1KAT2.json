@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM4.5PMEN1KAT2",
+  "lessonNum": 29,
+  "level": {
+    "number": 4,
+    "name": "Python"
+  },
+  "name": "Libraries in Python",
+  "student": {
+    "pdfUrl": "/lessons/students/LM4.5PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM4.5PMEN1KAT2-plan.pdf"
+  }
+}

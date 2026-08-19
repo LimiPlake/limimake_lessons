@@ -1,5 +1,5 @@
 {
-  "lessonID": "LM1.1MEN0KAT0",
+  "lessonID": "LM1.1PMEN0KAT0",
   "lessonNum": 1,
   "level": {
     "number": 1,
@@ -7,9 +7,9 @@
   },
   "name": "Examples & Explanation",
   "student": {
-    "pdfUrl": "/lessons/students/LM1.1MEN0KAT0.pdf"
+    "pdfUrl": "/lessons/students/LM1.1PMEN0KAT0.pdf"
   },
   "teacher": {
-    "planUrl": "/lessons/teachers/LM1.1MEN0KAT0-plan.pdf"
+    "planUrl": "/lessons/teachers/LM1.1PMEN0KAT0-plan.pdf"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM4.1PMEN0KAT0",
+  "lessonNum": 25,
+  "level": {
+    "number": 4,
+    "name": "Python"
+  },
+  "name": "Level 4 Examples",
+  "student": {
+    "pdfUrl": "/lessons/students/LM4.1PMEN0KAT0.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM4.1PMEN0KAT0-plan.pdf"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM3.3PMEN1KAT2",
+  "lessonNum": 23,
+  "level": {
+    "number": 3,
+    "name": "Logo"
+  },
+  "name": "Changing the turtle's color",
+  "student": {
+    "pdfUrl": "/lessons/students/LM3.3PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM3.3PMEN1KAT2-plan.pdf"
+  }
+}
