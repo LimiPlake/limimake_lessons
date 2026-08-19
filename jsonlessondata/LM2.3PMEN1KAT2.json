@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM2.3PMEN1KAT2",
+  "lessonNum": 11,
+  "level": {
+    "number": 2,
+    "name": "Scratch"
+  },
+  "name": "Other Motions",
+  "student": {
+    "pdfUrl": "/lessons/students/LM2.3PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM2.3PMEN1KAT2-plan.pdf"
+  }
+}
