@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM1.7PMEN1KAT2",
+  "lessonNum": 7,
+  "level": {
+    "number": 1,
+    "name": "ScratchJr"
+  },
+  "name": "Ending your program",
+  "student": {
+    "pdfUrl": "/lessons/students/LM1.7PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM1.7PMEN1KAT2-plan.pdf"
+  }
+}
