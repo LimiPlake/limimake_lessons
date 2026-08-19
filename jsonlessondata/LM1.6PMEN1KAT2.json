@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM1.6PMEN1KAT2",
+  "lessonNum": 6,
+  "level": {
+    "number": 1,
+    "name": "ScratchJr"
+  },
+  "name": "Adding Audio",
+  "student": {
+    "pdfUrl": "/lessons/students/LM1.6PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM1.6PMEN1KAT2-plan.pdf"
+  }
+}
