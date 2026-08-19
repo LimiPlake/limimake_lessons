@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM1.4PMEN1KAT2",
+  "lessonNum": 4,
+  "level": {
+    "number": 1,
+    "name": "ScratchJr"
+  },
+  "name": "The Other Starters",
+  "student": {
+    "pdfUrl": "/lessons/students/LM1.4PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM1.4PMEN1KAT2-plan.pdf"
+  }
+}
