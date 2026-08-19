@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM2.2PMEN0KAT2",
+  "lessonNum": 10,
+  "level": {
+    "number": 2,
+    "name": "Scratch"
+  },
+  "name": "Introduction",
+  "student": {
+    "pdfUrl": "/lessons/students/LM2.2PMEN0KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM2.2PMEN0KAT2-plan.pdf"
+  }
+}
