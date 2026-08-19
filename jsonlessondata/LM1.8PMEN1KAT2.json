@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM1.8PMEN1KAT2",
+  "lessonNum": 8,
+  "level": {
+    "number": 1,
+    "name": "ScratchJr"
+  },
+  "name": "Controlling your script",
+  "student": {
+    "pdfUrl": "/lessons/students/LM1.8PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM1.8PMEN1KAT2-plan.pdf"
+  }
+}
