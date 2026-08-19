@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM1.3PMEN1KAT2",
+  "lessonNum": 3,
+  "level": {
+    "number": 1,
+    "name": "ScratchJr"
+  },
+  "name": "Going home and changing looks",
+  "student": {
+    "pdfUrl": "/lessons/students/LM1.3PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM1.3PMEN1KAT2-plan.pdf"
+  }
+}
