@@ -1,0 +1,15 @@
+{
+  "lessonID": "LM1.5PMEN1KAT2",
+  "lessonNum": 5,
+  "level": {
+    "number": 1,
+    "name": "ScratchJr"
+  },
+  "name": "Different places",
+  "student": {
+    "pdfUrl": "/lessons/students/LM1.5PMEN1KAT2.pdf"
+  },
+  "teacher": {
+    "planUrl": "/lessons/teachers/LM1.5PMEN1KAT2-plan.pdf"
+  }
+}
