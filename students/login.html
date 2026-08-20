@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LimiMake Lessons - Student Login</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <main class="login-page">
+
+        <section class="login-box">
+            <h1>LimiMake Lessons</h1>
+            <h2>Student Login</h2>
+
+            <form id="login-form">
+
+                <label for="pin">PIN Code</label>
+                <input
+                    type="text"
+                    id="pin"
+                    inputmode="numeric"
+                    maxlength="4"
+                    pattern="[0-9]{4}"
+                    placeholder="4-digit PIN Code"
+                    required
+                >
+
+                <label for="passcode">Passcode</label>
+                <input
+                    type="password"
+                    id="passcode"
+                    inputmode="numeric"
+                    maxlength="5"
+                    pattern="[0-9]{5}"
+                    placeholder="5-digit passcode"
+                    required
+                >
+
+                <p id="login-error"></p>
+
+                <button type="submit">Log In</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <script src="login.js"></script>
+
+</body>
+</html>

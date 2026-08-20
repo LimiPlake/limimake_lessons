@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LimiMake Lessons</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+        <h1>LimiMake Lessons</h1>
+
+        <button id="logout-button">
+            Log Out
+        </button>
+    </header>
+
+    <main>
+
+        <section class="search-section">
+
+            <h2>Find your lesson</h2>
+
+            <p>
+                Search by Lesson ID, lesson name, or level.
+            </p>
+
+            <input
+                type="search"
+                id="lesson-search"
+                placeholder="Example: LM1.3PMEN1KAT2"
+            >
+
+        </section>
+
+        <section id="lesson-results" class="lesson-results"></section>
+
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
