@@ -1,0 +1,103 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding: 18px 30px;
+    background: var(--sky-blue);
+}
+
+.topbar h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.back-button {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+#logout-button {
+    padding: 10px 16px;
+
+    border: 2px solid black;
+    border-radius: 9px;
+
+    background: white;
+    color: black;
+}
+
+#logout-button:hover {
+    background: var(--sky-blue-light);
+}
+
+.lesson-viewer {
+    width: min(1100px, calc(100% - 40px));
+    margin: 35px auto;
+}
+
+#lesson-info {
+    margin-bottom: 25px;
+}
+
+#lesson-level {
+    margin-bottom: 5px;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+#lesson-name {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+#lesson-id {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#pdf-section {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#lesson-pdf {
+    width: 100%;
+    height: 75vh;
+
+    border: 3px solid var(--sky-blue);
+    border-radius: 14px;
+
+    background: white;
+}
+
+.download-button {
+    align-self: flex-start;
+
+    padding: 12px 18px;
+
+    border-radius: 9px;
+
+    background: var(--sky-blue);
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-button:hover {
+    background: var(--sky-blue-dark);
+}
+
+#lesson-error {
+    color: red;
+    font-weight: bold;
+}
