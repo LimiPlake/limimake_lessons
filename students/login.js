@@ -22,16 +22,14 @@ async function login(event) {
     }
 
     try {
-        const response = await fetch("/api/student-login", {
+        const response = await fetch("/lml_api/student-login", {
             method: "POST",
-
             headers: {
                 "Content-Type": "application/json"
             },
-
             body: JSON.stringify({
-                pin: pin,
-                passcode: passcode
+                pin,
+                passcode
             })
         });
 
