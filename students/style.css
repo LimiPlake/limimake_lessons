@@ -1,0 +1,28 @@
+:root {
+    --sky-blue: #87ceeb;
+    --sky-blue-dark: #55b8dd;
+    --sky-blue-light: #dff5ff;
+    --text: #111;
+    --gray: #666;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+    color: var(--text);
+    font-family: Helvetica, Arial, system-ui, sans-serif;
+}
+
+button,
+input,
+a {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
