@@ -1,0 +1,113 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 18px 30px;
+    background: var(--sky-blue);
+}
+
+.topbar h1 {
+    margin: 0;
+}
+
+#logout-button {
+    padding: 10px 16px;
+
+    border: 2px solid black;
+    border-radius: 9px;
+
+    background: white;
+    color: black;
+}
+
+#logout-button:hover {
+    background: var(--sky-blue-light);
+}
+
+.lessons-page {
+    width: min(1000px, calc(100% - 40px));
+    margin: 40px auto;
+}
+
+.search-section {
+    text-align: center;
+}
+
+.search-section h2 {
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.search-section p {
+    color: var(--gray);
+}
+
+#lesson-search {
+    width: min(600px, 100%);
+    margin-top: 15px;
+    padding: 15px 18px;
+
+    border: 3px solid var(--sky-blue);
+    border-radius: 12px;
+
+    outline: none;
+}
+
+#lesson-search:focus {
+    border-color: var(--sky-blue-dark);
+}
+
+.lesson-results {
+    margin-top: 35px;
+    display: grid;
+    gap: 18px;
+}
+
+.lesson-card {
+    padding: 20px;
+
+    border: 3px solid var(--sky-blue);
+    border-radius: 15px;
+}
+
+.lesson-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.lesson-id {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.lesson-level {
+    color: var(--gray);
+}
+
+.lesson-button,
+.download-button {
+    display: inline-block;
+
+    margin-top: 10px;
+    padding: 11px 16px;
+
+    border: none;
+    border-radius: 9px;
+
+    background: var(--sky-blue);
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lesson-button:hover,
+.download-button:hover {
+    background: var(--sky-blue-dark);
+}
+
+.no-results {
+    text-align: center;
+    color: var(--gray);
+}
