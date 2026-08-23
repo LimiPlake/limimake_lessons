@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LimiMake Lessons - Lesson Viewer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lesvie.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <a class="back-button" href="./">
+            ← Back to Lessons
+        </a>
+
+        <h1>LimiMake Lessons</h1>
+
+        <button id="logout-button" type="button">
+            Log Out
+        </button>
+
+    </header>
+
+    <main class="lesson-viewer">
+
+        <section id="lesson-info">
+
+            <p id="lesson-level"></p>
+
+            <h2 id="lesson-name">
+                Loading lesson...
+            </h2>
+
+            <p id="lesson-id"></p>
+
+        </section>
+
+        <section id="pdf-section">
+
+            <iframe
+                id="lesson-pdf"
+                title="Lesson PDF"
+            ></iframe>
+
+            <a
+                id="download-button"
+                class="download-button"
+                href="#"
+                download
+            >
+                Download PDF
+            </a>
+
+        </section>
+
+        <p id="lesson-error" aria-live="polite"></p>
+
+    </main>
+
+    <script src="lesvie.js"></script>
+
+</body>
+</html>
