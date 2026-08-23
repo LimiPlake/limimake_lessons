@@ -190,4 +190,4 @@ loadLessons().catch(error => {
             Could not load the lesson catalog.
         </p>
     `;
-});s
+});
