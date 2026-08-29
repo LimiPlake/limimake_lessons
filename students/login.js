@@ -11,7 +11,7 @@ form.addEventListener("submit", async (event) => {
 
     const pin = document.getElementById("pin").value.trim();
     const passcode = document.getElementById("passcode").value.trim();
-
+ 
     try {
         const response = await fetch(
             `${API_URL}/lml_api/student-login`,
