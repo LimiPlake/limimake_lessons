@@ -1,49 +1,50 @@
+const API_URL =
+    "https://limimake-lessons-paid-only-privacy.onrender.com";
+
 const form = document.getElementById("login-form");
 const errorText = document.getElementById("login-error");
 
-form.addEventListener("submit", login);
-
-async function login(event) {
+form.addEventListener("submit", async (event) => {
     event.preventDefault();
+
+    errorText.textContent = "";
 
     const pin = document.getElementById("pin").value.trim();
     const passcode = document.getElementById("passcode").value.trim();
 
-    errorText.textContent = "";
-
-    if (!/^\d{4}$/.test(pin)) {
-        errorText.textContent = "PIN Code must be exactly 4 digits.";
-        return;
-    }
-
-    if (!/^\d{5}$/.test(passcode)) {
-        errorText.textContent = "Passcode must be exactly 5 digits.";
-        return;
-    }
-
     try {
-        const response = await fetch("/lml_api/student-login", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                pin,
-                passcode
-            })
-        });
+        const response = await fetch(
+            `${API_URL}/lml_api/student-login`,
+            {
+                method: "POST",
+
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify({
+                    pin,
+                    passcode
+                })
+            }
+        );
 
         const data = await response.json();
 
         if (!response.ok || !data.success) {
-            errorText.textContent = "Incorrect PIN Code or passcode.";
+            errorText.textContent =
+                data.error || "Login failed.";
+
             return;
         }
 
-        sessionStorage.setItem("studentLoggedIn", "true");
-        sessionStorage.setItem("studentPIN", pin);
+        // Save the secure session token for this browser tab.
+        sessionStorage.setItem(
+            "lmlStudentToken",
+            data.token
+        );
 
-        window.location.href = "./";
+        window.location.href = "index.html";
 
     } catch (error) {
         console.error(error);
@@ -51,4 +52,4 @@ async function login(event) {
         errorText.textContent =
             "Could not connect to LimiMake Lessons.";
     }
-}
+});
