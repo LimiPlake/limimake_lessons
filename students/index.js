@@ -145,6 +145,29 @@ function displayLessons(list) {
         card.appendChild(openButton);
 
         results.appendChild(card);
+
+        if (lesson.level.number === 1 && lesson.lessonNum === 8) {
+            const testCard = document.createElement("article");
+            testCard.className = "lesson-card";
+
+            const testTitle = document.createElement("h3");
+            testTitle.textContent = "Level 1 Final Test";
+
+            const testText = document.createElement("p");
+            testText.className = "lesson-level";
+            testText.textContent = "Finished Level 1? Take your final test.";
+
+            const testButton = document.createElement("a");
+            testButton.className = "lesson-button";
+            testButton.textContent = "Take Final Test";
+            testButton.href = "https://limiplake.github.io/tests/ftl1";
+
+            testCard.appendChild(testTitle);
+            testCard.appendChild(testText);
+            testCard.appendChild(testButton);
+
+            results.appendChild(testCard);
+        }
     }
 }
 
